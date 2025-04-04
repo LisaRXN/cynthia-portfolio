@@ -1,5 +1,5 @@
 {
-  "headers": [
+  "rewrites": [
     {
       "source": "/amunas-recovery",
       "has": [
@@ -10,9 +10,10 @@
         }
       ],
       "destination": "/headers/amunas-recovery.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
     }
-  ],
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
   ]
 }
