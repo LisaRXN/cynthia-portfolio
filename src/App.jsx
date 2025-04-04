@@ -4,23 +4,23 @@ import {
   Route,
   useLocation,
 } from "react-router-dom";
-import { Home } from "./pages/Home";
-import { Header } from "./components/shared/Header";
-import { Footer } from "./components/shared/Footer";
-import { Amunas } from "./pages/work/Amunas";
-import { NosPasa } from "./pages/work/NosPasa";
-import { Corazon } from "./pages/work/Corazon";
-import { Sabores } from "./pages/work/Sabores";
-import { Work } from "./pages/Work";
-import { About } from "./pages/About";
+import { Home } from "./pages/Home.jsx";
+import { Header } from "./components/shared/Header.jsx";
+import { Footer } from "./components/shared/Footer.jsx";
+import { Amunas } from "./pages/work/Amunas.jsx";
+import { NosPasa } from "./pages/work/NosPasa.jsx";
+import { Corazon } from "./pages/work/Corazon.jsx";
+import { Sabores } from "./pages/work/Sabores.jsx";
+import { Work } from "./pages/Work.jsx";
+import { About } from "./pages/About.jsx";
 import { useEffect } from "react";
-import { Conectados } from "./pages/work/Conectados";
-import { BudVar } from "./pages/work/Budvar";
-import { BudTunnels } from "./pages/work/BudTunnels";
-import { Intocables } from "./pages/work/Intocables";
-import { Mimaskot } from "./pages/Mimaskot";
-import { Navidad } from "./pages/work/Navidad";
-import { OpenFootball } from "./pages/work/OpenFootball";
+import { Conectados } from "./pages/work/Conectados.jsx";
+import { BudVar } from "./pages/work/BudVar.jsx";
+import { BudTunnels } from "./pages/work/BudTunnels.jsx";
+import { Intocables } from "./pages/work/Intocables.jsx";
+import { Mimaskot } from "./pages/Mimaskot.jsx";
+import { Navidad } from "./pages/work/Navidad.jsx";
+import { OpenFootball } from "./pages/work/OpenFootball.jsx";
 
 function App() {
   return (
