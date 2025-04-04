@@ -58,7 +58,7 @@ export function WorkCard({ title, subtitle, link, image, video }) {
           ></iframe>
 
           <img
-            src={image}
+            src={`/img/${image}`}
             className={`object-cover object-top w-full h-full rounded-md ${
               isVideoVisible ? "hidden" : "block"
             }`}

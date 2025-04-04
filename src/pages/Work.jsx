@@ -12,7 +12,7 @@ export function Work() {
           title="Amunas Recovery"
           subtitle="Cusqueña - Publicis"
           link="/amunas-recovery"
-          image="/img/amunas-home.png"
+          image="amunas-home.png"
           video="https://player.vimeo.com/video/937783428?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
         />
         <hr className="bg-zinc-600 w-full my-10 h-[1px] border-none"></hr>
@@ -22,7 +22,7 @@ export function Work() {
           title="Conectados"
           subtitle="Movistar - VML"
           link="/conectados"
-          image="/img/conectados-home.png"
+          image="conectados-home.png"
           video="https://player.vimeo.com/video/1068638578?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
         />
         <hr className="bg-zinc-600 w-full my-10 h-[1px] border-none"></hr>
@@ -32,7 +32,7 @@ export function Work() {
           title="Nos Pasa"
           subtitle="Nayflex - Juju Angency"
           link="/nos-pasa"
-          image="/img/nayflex-home.png"
+          image="nayflex-home.png"
           video="https://player.vimeo.com/video/1068498974?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
         />
 
@@ -43,7 +43,7 @@ export function Work() {
           title="Corazón en la Pansa"
           subtitle="Cusqueña - Publicis"
           link="/corazon-en-la-pansa"
-          image="/img/corazon-home.png"
+          image="corazon-home.png"
           video="https://player.vimeo.com/video/1068592834?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
         />
 
@@ -54,7 +54,7 @@ export function Work() {
           title="Sabores que Conquistan el Mundo"
           subtitle="Cusqueña - Publicis"
           link="/sabores-que-conquistan-el-mundo"
-          image="/img/sabores-home.png"
+          image="sabores-home.png"
           video="https://player.vimeo.com/video/1068499522?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
         />
 
@@ -65,7 +65,7 @@ export function Work() {
           title="La Navidad La Preparamos Juntos"
           subtitle="Gloria - Juju"
           link="/navidad"
-          image="/img/navidad-home2.png"
+          image="navidad-home2.png"
           video="https://player.vimeo.com/video/1068499267?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
         />
         <hr className="bg-zinc-600 w-full my-10 h-[1px] border-none"></hr>
@@ -75,7 +75,7 @@ export function Work() {
           title="Las Intocables"
           subtitle="Iniciativa idea - Ojo 2021"
           link="/las-intocables"
-          image="/img/intocables-home.png"
+          image="intocables-home.png"
           video="https://player.vimeo.com/video/704338668?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
         />
 
@@ -86,7 +86,7 @@ export function Work() {
           title="BudVar"
           subtitle="Budweiser - Publicis"
           link="/bud-var"
-          image="/img/budvar-home.png"
+          image="budvar-home.png"
           video="https://player.vimeo.com/video/1068500225?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
         />
 
@@ -97,7 +97,7 @@ export function Work() {
           title="Bud Tunnels"
           subtitle="Budweiser - Publicis"
           link="/bud-tunnels"
-          image="/img/bud-tunnels-home.png"
+          image="bud-tunnels-home.png"
           video="https://player.vimeo.com/video/1068500493?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
         />
         <hr className="bg-zinc-600 w-full my-10 h-[1px] border-none"></hr>
@@ -107,7 +107,7 @@ export function Work() {
           title="Open Football"
           subtitle="Budweiser - Publicis"
           link="/open-football"
-          image="/img/open-home.jpg"
+          image="open-home.jpg"
         />
         <hr className="bg-zinc-600 w-full my-10 h-[1px] border-none"></hr>
 
