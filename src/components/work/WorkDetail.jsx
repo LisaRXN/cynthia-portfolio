@@ -11,7 +11,7 @@ export function WorkDetail({ title, subtitle, video, overview, awards }) {
   const lastWord = words.pop();
   const firstPart = words.join(" ");
 
-  const url = encodeURIComponent(window.location.href);
+  const url = encodeURIComponent(window.location.href); 
 
   return (
     <>
@@ -203,9 +203,7 @@ export function WorkDetail({ title, subtitle, video, overview, awards }) {
         <hr className="flex-1 border-none top-0 right-0 bg-mygreen h-[1px]" />
         <p className="text-zinc-500 text-sm">share this work</p>
         <a
-          href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
-            url
-          )}`}
+          href={`https://www.linkedin.com/sharing/share-offsite/?url=${url}`}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -215,9 +213,7 @@ export function WorkDetail({ title, subtitle, video, overview, awards }) {
           />
         </a>
         <a
-          href={`https://api.whatsapp.com/send?text=${encodeURIComponent(
-            title + " " + url
-          )}`}
+          href={`https://api.whatsapp.com/send?text=${url}`}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -227,9 +223,7 @@ export function WorkDetail({ title, subtitle, video, overview, awards }) {
           />
         </a>
         <a
-          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
-            url
-          )}`}
+          href={`https://www.facebook.com/sharer/sharer.php?u=${url}`}
           target="_blank"
           rel="noopener noreferrer"
         >
