@@ -11,7 +11,8 @@ export function WorkDetail({ title, subtitle, video, overview, awards }) {
   const lastWord = words.pop();
   const firstPart = words.join(" ");
 
-  const url = encodeURIComponent(window.location.href); 
+  // const url = encodeURIComponent(window.location.href); 
+  const url = window.location.href; 
 
   return (
     <>
