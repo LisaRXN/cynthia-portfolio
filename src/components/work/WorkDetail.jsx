@@ -204,7 +204,8 @@ export function WorkDetail({ title, subtitle, video, overview, awards }) {
         <hr className="flex-1 border-none top-0 right-0 bg-mygreen h-[1px]" />
         <p className="text-zinc-500 text-sm">share this work</p>
         <a
-          href={`https://www.linkedin.com/sharing/share-offsite/?url=${url}`}
+          // href={`https://www.linkedin.com/sharing/share-offsite/?url=${url}`}
+          href={`https://www.linkedin.com/shareArticle?mini=true&url=${url}`}
           target="_blank"
           rel="noopener noreferrer"
         >
