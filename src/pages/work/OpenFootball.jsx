@@ -21,12 +21,12 @@ export function OpenFootball() {
 
       <div className="grid md:grid-cols-2 gap-10 mb-10">
         <img
-          src="src/assets/img/open3.jpg"
+          src="/img/open3.jpg"
           className="w-full h-auto rounded-lg"
           alt=""
         />
         <img
-          src="src/assets/img/open4.png"
+          src="/img/open4.png"
           className="w-full h-auto rounded-lg"
           alt=""
         />

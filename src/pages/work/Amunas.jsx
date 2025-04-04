@@ -47,33 +47,33 @@ export function Amunas() {
       <div className="m-auto md:px-10">
         <div className="grid md:grid-cols-2 gap-y-5 gap-x-10">
           <img
-            src="src/assets/img/amunas1.png"
+            src="/img/amunas1.png"
             className="flex-1 rounded-md"
             alt=""
           />
           <img
-            src="src/assets/img/amunas6.png"
+            src="/img/amunas6.png"
             className="flex-1 rounded-md"
             alt=""
           />
         </div>
         <div className="mb-10 md:mb-20">
           <div className="w-full py-5 m-auto">
-            <img src="src/assets/img/amunas2-2.png" className="" alt="" />
+            <img src="/img/amunas2-2.png" className="" alt="" />
           </div>
           <div className="hidden md:grid grid-cols-3 gap-y-5 gap-x-2">
             <img
-              src="src/assets/img/amunas3.png"
+              src="/img/amunas3.png"
               alt=""
               className="rounded-lg"
             />
             <img
-              src="src/assets/img/amunas4.png"
+              src="/img/amunas4.png"
               alt=""
               className="rounded-lg"
             />
             <img
-              src="src/assets/img/amunas5.png"
+              src="/img/amunas5.png"
               alt=""
               className="rounded-lg"
             />
@@ -83,13 +83,13 @@ export function Amunas() {
             className="carousel md:hidden h-[200px] carousel-center bg-zinc-900 rounded-box w-full space-x-4"
           >
             <div ref={itemRef} className="carousel-item" id="item1">
-              <img src="src/assets/img/amunas3.png" className="rounded-box" />
+              <img src="/img/amunas3.png" className="rounded-box" />
             </div>
             <div className="carousel-item" id="item2">
-              <img src="src/assets/img/amunas4.png" className="rounded-box" />
+              <img src="/img/amunas4.png" className="rounded-box" />
             </div>
             <div className="carousel-item" id="item3">
-              <img src="src/assets/img/amunas5.png" className="rounded-box" />
+              <img src="/img/amunas5.png" className="rounded-box" />
             </div>
           </div>
           <div className="flex md:hidden w-full justify-center gap-2 py-2 cursor-pointer">

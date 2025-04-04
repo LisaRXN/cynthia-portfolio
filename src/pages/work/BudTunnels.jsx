@@ -21,13 +21,13 @@ export function BudTunnels() {
         >
           <div ref={itemRef} className="carousel-item" id="item1">
             <img
-              src="src/assets/img/bud-tunnels1.png"
+              src="/img/bud-tunnels1.png"
               className="rounded-box"
             />
           </div>
           <div className="carousel-item" id="item2">
             <img
-              src="src/assets/img/budvar2.png"
+              src="/img/budvar2.png"
               className="rounded-box rounded-full"
             />
           </div>

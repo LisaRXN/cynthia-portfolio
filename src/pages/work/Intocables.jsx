@@ -15,7 +15,7 @@ Así logramos que miles de mujeres confesaran que abortaron sin ir a prisión."
       <div className="h-[180px] md:h-[600px] md:px-10 mb-20">
         <img
           className="rounded-lg h-full w-full object-cover"
-          src="src/assets/img/intocables0.png"
+          src="/img/intocables0.png"
           alt=""
         />
       </div>
@@ -23,22 +23,22 @@ Así logramos que miles de mujeres confesaran que abortaron sin ir a prisión."
       <div className="grid md:grid-cols-2 gap-5 w-full md:px-10 mb-20">
         <img
           className="rounded-lg"
-          src="src/assets/img/intocables1.gif"
+          src="/img/intocables1.gif"
           alt=""
         />
         <img
           className="rounded-lg"
-          src="src/assets/img/intocables2.gif"
+          src="/img/intocables2.gif"
           alt=""
         />
         <img
           className="rounded-lg"
-          src="src/assets/img/intocables3.gif"
+          src="/img/intocables3.gif"
           alt=""
         />
         <img
           className="rounded-lg"
-          src="src/assets/img/intocables4.gif"
+          src="/img/intocables4.gif"
           alt=""
         />
       </div>
@@ -47,13 +47,13 @@ Así logramos que miles de mujeres confesaran que abortaron sin ir a prisión."
         <div className="h-[700px] w-full">
           <img
             className="rounded-lg h-[700px] w-full object-cover"
-            src="src/assets/img/intocables5.jpg"
+            src="/img/intocables5.jpg"
           ></img>
         </div>
         <div className="h-[700px] w-full">
           <img
             className="rounded-lg h-[700px] w-full object-cover"
-            src="src/assets/img/intocables6.jpg"
+            src="/img/intocables6.jpg"
           ></img>
         </div>
       </div>

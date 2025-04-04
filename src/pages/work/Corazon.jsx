@@ -35,7 +35,7 @@ export function Corazon() {
         <div className="w-full md:w-4/5 h-auto m-auto grid lg:grid-cols-2 gap-y-5 mt-20">
           <div className="w-full h-[200px] md:h-full">
             <img
-              src="src/assets/img/corazon5.png"
+              src="/img/corazon5.png"
               className="w-auto h-full object-left object-cover lg:rounded-l-lg"
             />
           </div>
@@ -51,7 +51,7 @@ export function Corazon() {
               <p>el sol</p>
             </div>
             <img
-              src="src/assets/img/logo-cusquena.png"
+              src="/img/logo-cusquena.png"
               className=" h-[50px] w-auto self-end"
               alt=""
             />

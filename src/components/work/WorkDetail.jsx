@@ -31,7 +31,7 @@ export function WorkDetail({ title, subtitle, video, overview, awards }) {
             className="mb-5 md:mb-0 order-1 md:order-2 w-[140px] md:w-[180px] py-2 md:py-3 rounded-full border border-gray-50 text-gray-50 hover:border-mygreen hover:bg-zinc-950 transition duration-300 flex items-center justify-center gap-2 "
           >
             <img
-              src="src/assets/img/icon/arrow-white.png"
+              src="/img/icon/arrow-white.png"
               className="h-auto w-5"
               alt=""
             />
@@ -47,7 +47,7 @@ export function WorkDetail({ title, subtitle, video, overview, awards }) {
         <div className="w-full justify-between grid grid-cols-3 md:grid-cols-4 lg:grid-cols-8 place-items-start 2xl:w-4/5 m-auto gap-10 mb-20">
           <div className="w-full flex flex-col items-center justify-center gap-3">
             <img
-              src="src/assets/img/awards/lions-bronze.png"
+              src="/img/awards/lions-bronze.png"
               className="w-[100px] h-auto"
               alt="Award"
             />
@@ -65,7 +65,7 @@ export function WorkDetail({ title, subtitle, video, overview, awards }) {
           </div>
           <div className="w-full flex flex-col items-center justify-center gap-3">
             <img
-              src="src/assets/img/awards/lions-shortlist.png"
+              src="/img/awards/lions-shortlist.png"
               className="w-[100px] h-auto"
               alt="Award"
             />
@@ -86,7 +86,7 @@ export function WorkDetail({ title, subtitle, video, overview, awards }) {
           </div>
           <div className="w-full flex flex-col items-center justify-center gap-3">
             <img
-              src="src/assets/img/awards/ojo-eficacia.png"
+              src="/img/awards/ojo-eficacia.png"
               className="w-[100px] h-auto"
               alt="Award"
             />
@@ -107,7 +107,7 @@ export function WorkDetail({ title, subtitle, video, overview, awards }) {
           </div>
           <div className="w-full flex flex-col items-center justify-center gap-3">
             <img
-              src="src/assets/img/awards/ojo-sustentable.png"
+              src="/img/awards/ojo-sustentable.png"
               className="w-[100px] h-auto"
               alt="Award"
             />
@@ -125,7 +125,7 @@ export function WorkDetail({ title, subtitle, video, overview, awards }) {
           </div>
           <div className="w-full flex flex-col items-center justify-center gap-3">
             <img
-              src="src/assets/img/awards/ojo-sustentable.png"
+              src="/img/awards/ojo-sustentable.png"
               className="w-[100px] h-auto"
               alt="Award"
             />
@@ -144,7 +144,7 @@ export function WorkDetail({ title, subtitle, video, overview, awards }) {
           </div>
           <div className="w-full flex flex-col items-center justify-center gap-3">
             <img
-              src="src/assets/img/awards/ojo-transformation.png"
+              src="/img/awards/ojo-transformation.png"
               className="w-[100px] h-auto"
               alt="Award"
             />
@@ -162,7 +162,7 @@ export function WorkDetail({ title, subtitle, video, overview, awards }) {
           </div>
           <div className="w-full flex flex-col items-center justify-center gap-3">
             <img
-              src="src/assets/img/awards/ojo-inovacion.png"
+              src="/img/awards/ojo-inovacion.png"
               className="w-[100px] h-auto"
               alt="Award"
             />
@@ -183,7 +183,7 @@ export function WorkDetail({ title, subtitle, video, overview, awards }) {
           </div>
           <div className="w-full flex flex-col items-center justify-center gap-3">
             <img
-              src="src/assets/img/awards/ojo-idea.png"
+              src="/img/awards/ojo-idea.png"
               className="w-[100px] h-auto"
               alt="Award"
             />

@@ -52,7 +52,7 @@ export function About() {
               >
                 Get in touch
                 <img
-                  src="src/assets/img/icon/arrow-up-right.png"
+                  src="/img/icon/arrow-up-right.png"
                   className="h-auto w-5"
                   alt=""
                 />
@@ -75,7 +75,7 @@ export function About() {
 
           <div className="relative h-[400px] w-[250px] ">
             <img
-              src="src/assets/img/cynthia.jpeg"
+              src="/img/cynthia.jpeg"
               className="absolute top-0 left-0 z-20 h-full w-full object-cover shadow-md"
               alt=""
             />

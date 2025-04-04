@@ -20,7 +20,7 @@ export function Home() {
           <div className="flex-1 flex flex-col max-h-[800px] justify-between h-full ">
             <div className="flex-1 mb-10">
               <video
-                src="src/assets/img/movistar-video.mp4?"
+                src="/img/movistar-video.mp4?"
                 type="video/mp4"
                 autoPlay
                 muted
@@ -52,7 +52,7 @@ export function Home() {
           {/* video 2 */}
           <div className="flex-1 flex flex-col h-full max-h-[800px] justify-between">
             <img
-              src="src/assets/img/amunas.png"
+              src="/img/amunas.png"
               alt=""
               className="object-cover"
             />
@@ -62,7 +62,7 @@ export function Home() {
             >
               Get in touch
               <img
-                src="src/assets/img/icon/arrow-up-right.png"
+                src="/img/icon/arrow-up-right.png"
                 className="h-auto w-5"
                 alt=""
               />
@@ -72,7 +72,7 @@ export function Home() {
           {/* video 3 */}
           <div className="flex-1 lg:h-[600px] max-h-[800px]">
             <video
-              src="src/assets/img/cusquena-video-9:16.mp4"
+              src="/img/cusquena-video-9:16.mp4"
               type="video/mp4"
               autoPlay
               muted
@@ -106,7 +106,7 @@ export function Home() {
         </div>
         <div className="flex-1 px-5">
           <img
-            src="src/assets/img/amunas.png"
+            src="/img/amunas.png"
             alt=""
             className="object-cover"
           />
@@ -189,7 +189,7 @@ export function Home() {
                 >
                   Get in touch
                   <img
-                    src="src/assets/img/icon/arrow-up-right.png"
+                    src="/img/icon/arrow-up-right.png"
                     className="h-auto w-5"
                     alt=""
                   />
@@ -219,7 +219,7 @@ export function Home() {
               <div className="w-full md:w-[500px] lg:w-full  flex items-center justify-between m-auto mb-10">
                 <div className="flex items-center justify-start gap-3">
                   <img
-                    src="src/assets/img/icon/mail.png"
+                    src="/img/icon/mail.png"
                     className="w-5"
                     alt=""
                   />
@@ -235,7 +235,7 @@ export function Home() {
                 </div>
                 <div className="flex items-center justify-start gap-3">
                   <img
-                    src="src/assets/img/icon/linkedin.png"
+                    src="/img/icon/linkedin.png"
                     className="w-5"
                     alt=""
                   />
@@ -251,7 +251,7 @@ export function Home() {
                 </div>
                 <div className="flex items-center justify-start gap-3">
                   <img
-                    src="src/assets/img/icon/behance.png"
+                    src="/img/icon/behance.png"
                     className="w-5"
                     alt=""
                   />
@@ -272,14 +272,14 @@ export function Home() {
             <div className="carousel carousel-vertical rounded-box rounded-xl w-[300px] h-[475px]">
               <div className="carousel-item h-full">
                 <img
-                  src="src/assets/img/cynthia.jpeg"
+                  src="/img/cynthia.jpeg"
                   className="w-full h-full object-cover"
                   alt="Tailwind CSS Carousel component"
                 />
               </div>
               <div className="carousel-item h-full">
                 <img
-                  src="src/assets/img/cynthia2.jpeg"
+                  src="/img/cynthia2.jpeg"
                   className="w-full h-full object-cover"
                   alt="Tailwind CSS Carousel component"
                 />
@@ -293,7 +293,7 @@ export function Home() {
               >
                 About me
                 <img
-                  src="src/assets/img/icon/arrow-up-right.png"
+                  src="/img/icon/arrow-up-right.png"
                   className="h-auto w-5"
                   alt=""
                 />

@@ -10,7 +10,7 @@ export function Contact({ modalRef }) {
         <div className="w-full lg:w-full flex flex-col items-center justify-start gap-5 m-auto">
           <h3 className="font-bold text-lg">Contact me here !</h3>
           <div className="flex items-center justify-start gap-3">
-            <img src="src/assets/img/icon/mail.png" className="w-5" alt="" />
+            <img src="/img/icon/mail.png" className="w-5" alt="" />
             <div className="group relative">
               <a
                 href="mailto:cynthia.alarcon.arroyo@gmail.com"
@@ -23,7 +23,7 @@ export function Contact({ modalRef }) {
           </div>
           <div className="flex items-center justify-start gap-3">
             <img
-              src="src/assets/img/icon/linkedin.png"
+              src="/img/icon/linkedin.png"
               className="w-5"
               alt=""
             />
@@ -38,7 +38,7 @@ export function Contact({ modalRef }) {
             </div>
           </div>
           <div className="flex items-center justify-start gap-3">
-            <img src="src/assets/img/icon/behance.png" className="w-5" alt="" />
+            <img src="/img/icon/behance.png" className="w-5" alt="" />
             <div className="group relative">
               <a
                 href="https://www.behance.net/cynthiaalarcon27"

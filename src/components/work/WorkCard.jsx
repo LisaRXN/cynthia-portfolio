@@ -72,7 +72,7 @@ export function WorkCard({ title, subtitle, link, image, video }) {
         >
           View Project
           <img
-            src="src/assets/img/icon/arrow-up-right.png"
+            src="/img/icon/arrow-up-right.png"
             className="h-auto w-5"
             alt=""
           />

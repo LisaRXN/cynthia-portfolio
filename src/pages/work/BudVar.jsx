@@ -17,10 +17,10 @@ export function BudVar() {
       <div className="m-auto md:px-10 mb-20">
         <div ref={carouselRef} className="carousel h-[200px] md:h-[600px] carousel-center bg-zinc-900 rounded-box w-full space-x-4">
           <div ref={itemRef} className="carousel-item" id="item1">
-            <img src="src/assets/img/budvar1.png" className="rounded-box" />
+            <img src="/img/budvar1.png" className="rounded-box" />
           </div>
           <div className="carousel-item" id="item2">
-            <img src="src/assets/img/budvar2.png" className="rounded-box" />
+            <img src="/img/budvar2.png" className="rounded-box" />
           </div>
         </div>
         <div className="flex w-full justify-center gap-2 py-2 cursor-pointer">

@@ -10,12 +10,12 @@ export function Footer() {
         </div>
         <div className="flex items-center justify-end gap-5">
           <img
-            src="src/assets/img/icon/insta-white.png"
+            src="/img/icon/insta-white.png"
             className="w-6"
             alt=""
           />
-          <img src="src/assets/img/icon/linkedin.png" className="w-6" alt="" />
-          <img src="src/assets/img/icon/behance.png" className="w-6" alt="" />
+          <img src="/img/icon/linkedin.png" className="w-6" alt="" />
+          <img src="/img/icon/behance.png" className="w-6" alt="" />
         </div>
       </div>
     </div>

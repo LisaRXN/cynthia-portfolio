@@ -14,7 +14,7 @@ export function Title({ title, btn }) {
         >
           { btn }
           <img
-            src="src/assets/img/icon/arrow-up-right.png"
+            src="/img/icon/arrow-up-right.png"
             className="h-auto w-5"
             alt=""
           />
