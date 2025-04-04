@@ -4,15 +4,14 @@ import {
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export function WorkDetail({ title, subtitle, video, overview, awards }) {
   const words = title.split(" ");
   const lastWord = words.pop();
   const firstPart = words.join(" ");
 
-  const location = useLocation();
-  const url = `http://localhost:5173/${location}`;
+  const url = encodeURIComponent(window.location.href);
 
   return (
     <>
