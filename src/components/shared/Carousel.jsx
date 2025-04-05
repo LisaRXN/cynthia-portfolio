@@ -8,7 +8,7 @@ export function Carousel({ images }) {
       {/* carousel */}
       <div
         ref={carouselRef}
-        className="carousel h-[200px] md:h-[400px] lg:h-[600px] xl:h-[700px] carousel-center bg-zinc-900 rounded-box w-full space-x-4 overflow-x-auto flex snap-x snap-mandatory scroll-smooth mb-4"
+        className="carousel h-[250px] md:h-[400px] lg:h-[600px] xl:h-[700px] carousel-center bg-zinc-900 rounded-box w-full space-x-4 overflow-x-auto flex snap-x snap-mandatory scroll-smooth mb-4"
       >
         {images.map((image, index) => (
           <div
@@ -17,7 +17,7 @@ export function Carousel({ images }) {
           >
             <img
               src={`/img/${image}`}
-              className="w-full h-full object-cover rounded-box"
+              className="w-full h-full object-cover rounded-box object-top"
               />
           </div>
         ))}

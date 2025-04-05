@@ -3,14 +3,14 @@ import { WorkCard } from "../components/work/WorkCard";
 import { Title } from "../components/shared/Title";
 import { Contact } from "../components/shared/Contact";
 import { useRef } from "react";
+import { Carousel } from "../components/shared/Carousel";
 
 export function Home() {
-
   const modalRef = useRef();
 
   const openModal = () => {
-    modalRef.current.showModal()
-}
+    modalRef.current.showModal();
+  };
   return (
     <div className="m-auto md:min-h-screen">
       {/* ---- Hero Section Desktop ----  */}
@@ -51,13 +51,9 @@ export function Home() {
 
           {/* video 2 */}
           <div className="flex-1 flex flex-col h-full max-h-[800px] justify-between">
-            <img
-              src="/img/amunas.png"
-              alt=""
-              className="object-cover"
-            />
+            <img src="/img/amunas.png" alt="" className="object-cover" />
             <button
-              onClick={()=>openModal()}
+              onClick={() => openModal()}
               className="w-[160px] lg:w-[200px] py-2 md:py-3 rounded-full border border-gray-50 text-gray-50 hover:border-mygreen hover:bg-zinc-950 transition duration-300 flex items-center justify-center gap-2 "
             >
               Get in touch
@@ -67,7 +63,7 @@ export function Home() {
                 alt=""
               />
             </button>
-            <Contact modalRef={modalRef}/>
+            <Contact modalRef={modalRef} />
           </div>
           {/* video 3 */}
           <div className="flex-1 lg:h-[600px] max-h-[800px]">
@@ -85,37 +81,35 @@ export function Home() {
       </section>
 
       {/* ---- Hero Section Mobil ----  */}
-      <div className="md:hidden flex-1 flex flex-col gap-10 justify-between h-full">
-        <div className="flex flex-col gap-5 px-10">
+      <div className="md:hidden flex-1 flex flex-col gap-10 justify-between h-full ">
+        <div className="flex flex-col gap-4 px-10">
           <h1 className="ml-1 text-xl font-extralight  font-open">
             Cynthia Alarcón
           </h1>
-          <div className="font-rock text-4xl font-bold">
+          <div className="font-rock text-2xl font-bold">
             <span
-              className="bg-gradient-to-r from-mygreen to-emerald-800 bg-clip-text text-transparent font-bold animate-gradientMove"
+              className="bg-gradient-to-r whitespace-nowrap from-mygreen to-emerald-800 bg-clip-text text-transparent font-bold animate-gradientMove"
               style={{
-                backgroundSize: "200% 200%",
+                backgroundSize: "150% 150%",
                 WebkitBackgroundClip: "text",
                 backgroundClip: "text",
               }}
             >
               Creative
             </span>
-            <p className="mt-5">Copywriter</p>
+            <p className="mt-4">Copywriter</p>
           </div>
         </div>
-        <div className="flex-1 px-5">
-          <img
-            src="/img/amunas.png"
-            alt=""
-            className="object-cover"
+        <div className="flex-1 px-5 items-center justify-center">
+          <Carousel
+            images={["amunas-home.png", "nayflex-home.png", "corazon-home.png"]}
           />
         </div>
       </div>
 
       {/* ---- Work Section ----  */}
       <section id="work-section" className="">
-        <div className="py-20 px-5 md:px-10">
+        <div className="py-10 md:py-20 px-5 md:px-10">
           <Title title="Work" btn="View All" />
 
           {/* Amunas */}
@@ -179,15 +173,15 @@ export function Home() {
             {/* col 1 */}
             <div className="w-full h-full">
               <div className="flex items-start md:items-center justify-between w-full mb-20">
-                <div className="flex items-center font-rock tracking-tight text-3xl md:text-5xl font-semibold uppercase">
+                <div className="flex items-center font-rock tracking-tight text-2xl md:text-5xl font-semibold uppercase">
                   <h2 className="">About</h2>
                   <span className="text-mygreen ml-4 mt-2">.</span>
                 </div>
                 <Link
-                  to=""
+                  to="/about"
                   className="lg:hidden w-[160px] py-2 rounded-full border border-gray-50 text-gray-50 hover:border-mygreen hover:bg-zinc-950 transition duration-300 flex items-center justify-center gap-2"
                 >
-                  Get in touch
+                  About
                   <img
                     src="/img/icon/arrow-up-right.png"
                     className="h-auto w-5"
@@ -218,11 +212,7 @@ export function Home() {
 
               <div className="w-full md:w-[500px] lg:w-full  flex items-center justify-between m-auto mb-10">
                 <div className="flex items-center justify-start gap-3">
-                  <img
-                    src="/img/icon/mail.png"
-                    className="w-5"
-                    alt=""
-                  />
+                  <img src="/img/icon/mail.png" className="w-5" alt="" />
                   <div className="group relative">
                     <a
                       href="mailto:cynthia.alarcon.arroyo@gmail.com"
@@ -234,11 +224,7 @@ export function Home() {
                   </div>
                 </div>
                 <div className="flex items-center justify-start gap-3">
-                  <img
-                    src="/img/icon/linkedin.png"
-                    className="w-5"
-                    alt=""
-                  />
+                  <img src="/img/icon/linkedin.png" className="w-5" alt="" />
                   <div className="group relative">
                     <Link
                       to="https://www.linkedin.com/in/cynthia-alarc%C3%B3n-918b66b1/"
@@ -250,11 +236,7 @@ export function Home() {
                   </div>
                 </div>
                 <div className="flex items-center justify-start gap-3">
-                  <img
-                    src="/img/icon/behance.png"
-                    className="w-5"
-                    alt=""
-                  />
+                  <img src="/img/icon/behance.png" className="w-5" alt="" />
                   <div className="group relative">
                     <Link
                       to="https://www.behance.net/cynthiaalarcon27"

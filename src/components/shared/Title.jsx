@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export function Title({ title, btn }) {
   return (
     <div className="z-50 flex items-center justify-between mb-14">
-      <div className="flex items-center font-rock tracking-tight text-3xl md:text-5xl font-semibold uppercase">
+      <div className="flex items-center font-rock tracking-tight text-2xl md:text-5xl font-semibold uppercase">
         <h2 className="">{title}</h2>
         <span className="text-mygreen ml-6 md:ml-10">.</span>
       </div>
