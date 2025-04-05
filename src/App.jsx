@@ -33,7 +33,7 @@ function App() {
 
 function Main() {
   return (
-    <div className="bg-zinc-900 min-h-screen font-open font-light">
+    <div className="bg-zinc-900 text-gray-50 min-h-screen font-open font-light">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
