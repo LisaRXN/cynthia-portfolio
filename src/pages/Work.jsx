@@ -116,7 +116,7 @@ export function Work() {
           title="Blackie El Gato Negro"
           subtitle="Mimaskot - Circus"
           link="/mimaskot"
-          image="/img/mimaskot-home.png"
+          image="mimaskot-home.png"
           video="https://player.vimeo.com/video/1068501493?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
         />
       </div>

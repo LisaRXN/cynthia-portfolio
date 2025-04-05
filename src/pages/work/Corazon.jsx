@@ -11,8 +11,9 @@ export function Corazon() {
         title="Corazón en la Pansa"
         subtitle="Cusqueña - Publicis"
         video="https://player.vimeo.com/video/630211406?h=2bbac42c5d"
-        overview={`Los peruanos amamos tanto nuestra comida que el corazón se nos ha bajado a la panza. Justo ahí es donde lo tenemos y donde más sentimos el amor de todos a través de increíbles sabores.\n\nEsta es la historia que quisimos contar junto a Cusqueña, la cerveza de la gastronomía nacional, para recordarle a todos que cada plato va mejor con los sabores de nuestra cerveza.
-        `}
+        // overview={`Los peruanos amamos tanto nuestra comida que el corazón se nos ha bajado a la panza. Justo ahí es donde lo tenemos y donde más sentimos el amor de todos a través de increíbles sabores.\n\nEsta es la historia que quisimos contar junto a Cusqueña, la cerveza de la gastronomía nacional, para recordarle a todos que cada plato va mejor con los sabores de nuestra cerveza.
+        // `}
+        overview={`We Peruvians love our food so much that our heart has moved down to our stomach. That’s exactly where we carry it — and where we feel everyone’s love the most, through incredible flavors.\n\nThis is the story we wanted to tell with Cusqueña, the beer of our national cuisine, to remind everyone that every dish is better when paired with the flavors of our beer.`}
       />
       <div className="m-auto md:px-10">
         <Carousel

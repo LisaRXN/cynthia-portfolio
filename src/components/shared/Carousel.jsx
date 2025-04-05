@@ -16,7 +16,7 @@ export function Carousel({ images }) {
             className="carousel-item snap-center w-full flex-shrink-0"
           >
             <img
-              src={`src/assets/img/${image}`}
+              src={`/img/${image}`}
               className="w-full h-full object-cover rounded-box"
               />
           </div>

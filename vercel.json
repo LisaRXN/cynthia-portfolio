@@ -12,6 +12,117 @@
       "destination": "/headers/amunas-recovery.html"
     },
     {
+      "source": "/conectados",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(facebookexternalhit|Twitterbot|LinkedInBot|WhatsApp).*"
+        }
+      ],
+      "destination": "/headers/conectados.html"
+    },
+    {
+      "source": "/nos-pasa",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(facebookexternalhit|Twitterbot|LinkedInBot|WhatsApp).*"
+        }
+      ],
+      "destination": "/headers/nos-pasa.html"
+    },
+    {
+      "source": "/corazon-en-la-pansa",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(facebookexternalhit|Twitterbot|LinkedInBot|WhatsApp).*"
+        }
+      ],
+      "destination": "/headers/corazon.html"
+    },
+    {
+      "source": "/sabores-que-conquistan-el-mundo",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(facebookexternalhit|Twitterbot|LinkedInBot|WhatsApp).*"
+        }
+      ],
+      "destination": "/headers/sabores.html"
+    },
+    {
+      "source": "/navidad",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(facebookexternalhit|Twitterbot|LinkedInBot|WhatsApp).*"
+        }
+      ],
+      "destination": "/headers/navidad.html"
+    },
+    {
+      "source": "/las-intocables",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(facebookexternalhit|Twitterbot|LinkedInBot|WhatsApp).*"
+        }
+      ],
+      "destination": "/headers/las-intocables.html"
+    },
+    {
+      "source": "/bud-var",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(facebookexternalhit|Twitterbot|LinkedInBot|WhatsApp).*"
+        }
+      ],
+      "destination": "/headers/bud-var.html"
+    },
+    {
+      "source": "/bud-tunnels",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(facebookexternalhit|Twitterbot|LinkedInBot|WhatsApp).*"
+        }
+      ],
+      "destination": "/headers/bud-tunnels.html"
+    },
+    {
+      "source": "/open-football",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(facebookexternalhit|Twitterbot|LinkedInBot|WhatsApp).*"
+        }
+      ],
+      "destination": "/headers/open-football.html"
+    },
+    {
+      "source": "/mimaskot",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(facebookexternalhit|Twitterbot|LinkedInBot|WhatsApp).*"
+        }
+      ],
+      "destination": "/headers/mimaskot.html"
+    },
+    
+    {
       "source": "/(.*)",
       "destination": "/"
     }
