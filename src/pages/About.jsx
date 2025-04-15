@@ -12,7 +12,7 @@ export function About() {
   }
 
   return (
-    <section id="work-section" className="mb-24">
+    <section id="work-section" className="mb-24 md:max-w-screen-2xl m-auto">
       <div className="px-5 md:px-10">
         {/* <Title title="About" btn="Get in touch" /> */}
 

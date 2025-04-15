@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <div className="px-10">
+    <div className="px-10 md:max-w-screen-2xl m-auto">
       <hr className="bg-zinc-200 w-full h-[1px] border-none"></hr>
       <div className="flex items-center justify-between py-10">
         <div className="logo">

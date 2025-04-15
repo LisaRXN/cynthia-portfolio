@@ -9,7 +9,7 @@ export function Header() {
   };
 
   return (
-    <header className=" text-slate-50 flex justify-between items-center h-[80px] w-full px-10">
+    <header className=" text-slate-50 flex justify-between items-center h-[80px] w-full px-10 md:max-w-screen-2xl m-auto">
       <div className="logo">
         <a href="/" className=" text-xl font-grotesk font-semibold cursor-pointer">
           ca<span className="text-mygreen text-3xl">.</span>

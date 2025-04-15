@@ -3,7 +3,7 @@ import { Title } from "../components/shared/Title";
 
 export function Work() {
   return (
-    <section id="work-section" className="mb-16 md:mb-24">
+    <section id="work-section" className="mb-16 md:mb-24 md:max-w-screen-2xl m-auto">
       <div className="py-10 md:py-20 px-5 md:px-10">
         <Title title="Work" />
 

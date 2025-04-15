@@ -6,15 +6,15 @@
 
 @font-face {
   font-family: "Tusker Grotesk";
-  src: url("src/assets/font/TuskerGrotesk-9800Super.otf") format("opentype"),
-       url("src/assets/font/TuskerGrotesk-9800Super.ttf") format("truetype");
+  src: url("/font/TuskerGrotesk-9800Super.otf") format("opentype"),
+       url("/font/TuskerGrotesk-9800Super.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: "Tusker Grotesk";
-  src: url("src/assets/font/TuskerGrotesk-7800Super.otf") format("opentype"),
-       url("src/assets/font/TuskerGrotesk-7800Super.ttf") format("truetype");
+  src: url("/font/TuskerGrotesk-7800Super.otf") format("opentype"),
+       url("/font/TuskerGrotesk-7800Super.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }

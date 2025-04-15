@@ -12,7 +12,7 @@ export function Home() {
     modalRef.current.showModal();
   };
   return (
-    <div className="m-auto md:min-h-screen">
+    <div className="m-auto md:min-h-screen md:max-w-screen-2xl">
       {/* ---- Hero Section Desktop ----  */}
       <section id="hero-section" className="hidden md:block mb-20 h-auto">
         <div className="grid grid-cols-3 w-full gap-10 box-border px-10">
@@ -50,8 +50,8 @@ export function Home() {
           </div>
 
           {/* video 2 */}
-          <div className="flex-1 flex flex-col h-full max-h-[800px] justify-between">
-            <img src="/img/amunas.png" alt="" className="object-cover" />
+          <div className="flex-1 flex flex-col gap-10 h-full max-h-[800px] justify-between">
+            <img src="/img/amunas.png" alt="" className="object-cover h-full max-h-[700px]" />
             <button
               onClick={() => openModal()}
               className="w-[160px] lg:w-[200px] py-2 md:py-3 rounded-full border border-gray-50 text-gray-50 hover:border-mygreen hover:bg-zinc-950 transition duration-300 flex items-center justify-center gap-2 "
@@ -66,7 +66,7 @@ export function Home() {
             <Contact modalRef={modalRef} />
           </div>
           {/* video 3 */}
-          <div className="flex-1 lg:h-[600px] max-h-[800px]">
+          <div className="flex-1 lg:h-full max-h-[800px]">
             <video
               src="/img/cusquena-video-9:16.mp4"
               type="video/mp4"
@@ -103,6 +103,7 @@ export function Home() {
         <div className="flex-1 px-5 items-center justify-center">
           <Carousel
             images={["amunas-home.png", "nayflex-home.png", "corazon-home.png"]}
+            home={true}
           />
         </div>
       </div>

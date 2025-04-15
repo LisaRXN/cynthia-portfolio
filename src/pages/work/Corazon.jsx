@@ -6,7 +6,7 @@ export function Corazon() {
   // const { activeSlide, carouselRef, itemRef, goToSlide } = useCarouselScroll();
 
   return (
-    <div className="min-h-screen h-auto px-10 lg:px-20 py-5 mb-10 md:max-w-screen-2xl m-auto">
+    <div className="min-h-screen h-auto px-10 lg:px-20 py-5 mb-10 md:max-w-screen-2xl m-auto mb-20">
       <WorkDetail
         title="Corazón en la Pansa"
         subtitle="Cusqueña - Publicis"
@@ -34,10 +34,10 @@ export function Corazon() {
         />
 
         <div className="w-full md:w-4/5 h-auto m-auto grid lg:grid-cols-2 gap-y-5 mt-20 md:max-w-screen-2xl">
-          <div className="w-full h-[200px] md:h-full">
+          <div className="w-full h-[200px] md:h-[500px] lg:h-[700px]">
             <img
               src="/img/corazon5.png"
-              className="w-auto h-full object-left object-cover lg:rounded-l-lg"
+              className="w-auto h-full object-left object-cover rounded-t-lg lg:rounded-l-lg"
             />
           </div>
           <div className="flex flex-col gap-5 lg:gap-20 md:p-10 uppercase text-3xl md:text-5xl text-zinc-50 font-tusker font-bold">
