@@ -2,7 +2,7 @@ import { WorkDetail } from "../../components/work/WorkDetail";
 
 export function NosPasa() {
   return (
-    <div className="min-h-screen h-auto px-10 lg:px-20 py-5 mb-10">
+    <div className="min-h-screen h-auto px-10 lg:px-20 py-5 mb-10 md:max-w-screen-2xl m-auto">
       <WorkDetail
         title="Nos Pasa"
         subtitle="Nayflex - Juju Angency"

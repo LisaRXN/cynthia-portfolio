@@ -5,7 +5,7 @@ export function BudTunnels() {
   const { activeSlide, carouselRef, itemRef, goToSlide } = useCarouselScroll();
 
   return (
-    <div className="px-10 lg:px-20 py-5">
+    <div className="px-10 lg:px-20 py-5 md:max-w-screen-2xl m-auto">
       <WorkDetail
         title="Bud Tunnels"
         subtitle="For Budweiser - By Publicis - 2022"

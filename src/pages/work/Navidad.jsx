@@ -2,7 +2,7 @@ import { WorkDetail } from "../../components/work/WorkDetail";
 
 export function Navidad() {
   return (
-    <div className="px-10 lg:px-20 py-5">
+    <div className="px-10 lg:px-20 py-5 md:max-w-screen-2xl m-auto">
       <WorkDetail
         title="La Navidad La Preparamos Juntos"
         subtitle="For Gloria - By Juju - 2024"

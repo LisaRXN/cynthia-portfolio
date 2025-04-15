@@ -16,7 +16,7 @@ export function WorkDetail({ title, subtitle, video, overview, awards }) {
 
   return (
     <>
-      <div className="flex flex-col items-start justify-center gap-5 mb-16">
+      <div className="flex flex-col items-start justify-center gap-5 mb-16 md:max-w-screen-2xl m-auto">
         <div className="flex flex-col gap-y-5 md:flex-row items-center justify-between w-full">
           <h1 className="order-2 md:order-1 font-grotesk tracking-tight font-light text-3xl md:text-5xl text-center">
             {firstPart}
@@ -237,7 +237,7 @@ export function WorkDetail({ title, subtitle, video, overview, awards }) {
         <hr className="flex-1 border-none top-0 right-0 bg-mygreen h-[1px]" />
       </div>
 
-      <div className="relative flex items-center justify-center 2xl:w-4/5 m-auto">
+      <div className="relative flex items-center justify-center 2xl:w-4/5 m-auto ">
         {/* share this work */}
         <div className="hidden lg:flex absolute top-0 -right-10 xl:right-10 2xl:right-0 flex-col items-center justify-between h-full">
           <hr className="border-none top-0 right-0 bg-mygreen rotate-90 h-[1px] w-[110px] mt-[55px]" />
@@ -294,7 +294,7 @@ export function WorkDetail({ title, subtitle, video, overview, awards }) {
         ></iframe>
       </div>
 
-      <div className="m-auto md:px-5 lg:px-10">
+      <div className="m-auto md:px-5 lg:px-10 md:max-w-screen-2xl">
         <div className="relative md:w-1/2 my-24 lg:my-32 pl-5 border-l-8 border-mygreen ">
           <p className="font-grotesk tracking-tight font-bold text-2xl mb-5">
             Overview
