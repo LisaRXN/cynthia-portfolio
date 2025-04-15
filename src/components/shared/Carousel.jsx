@@ -1,6 +1,6 @@
 import useCarouselScroll from "../../utils/useCarouselScroll";
 
-export function Carousel({ images, home=false }) {
+export function Carousel({ images, home=false}) {
   const { activeSlide, carouselRef, goToSlide } = useCarouselScroll();
 
   return (
@@ -8,16 +8,16 @@ export function Carousel({ images, home=false }) {
       {/* carousel */}
       <div
         ref={carouselRef}
-        className={`carousel md:h-[400px] lg:h-[600px] xl:h-[700px] carousel-center rounded-box w-full space-x-4 overflow-x-auto flex snap-x snap-mandatory scroll-smooth mb-4 ${home ? 'h-[350px]' : 'h-[250px]'}`}
+        className={`carousel sm:h-[300px] md:h-[400px] lg:h-[600px] xl:h-[700px] carousel-center rounded-box w-full space-x-4 overflow-x-auto flex snap-x snap-mandatory scroll-smooth mb-4 ${ home ? 'h-[350px]' : 'h-[200px]'}`}
       >
         {images.map((image, index) => (
           <div
             key={index}
-            className="carousel-item snap-center h-full w-auto flex-shrink-0 "
+            className="carousel-item snap-center h-full w-full flex-shrink-0 "
           >
             <img
               src={`/img/${image}`}
-              className="w-auto max-w-screen h-full object-cover rounded-box object-top block"
+              className="w-full h-full object-cover rounded-box object-top"
               />
           </div>
         ))}
