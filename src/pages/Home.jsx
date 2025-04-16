@@ -107,7 +107,6 @@ export function Home() {
         <div className="flex-1 px-5 items-center justify-center">
           <Carousel
             images={["amunas-home.png", "nayflex-home.png", "corazon-home.png"]}
-            home={true}
           />
         </div>
       </div>
