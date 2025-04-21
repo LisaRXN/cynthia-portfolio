@@ -4,9 +4,11 @@ import { Title } from "../components/shared/Title";
 import { Contact } from "../components/shared/Contact";
 import { useRef } from "react";
 import { Carousel } from "../components/shared/Carousel";
+import { useTranslation } from "react-i18next";
 
 export function Home() {
   const modalRef = useRef();
+  const { t } = useTranslation();
 
   const openModal = () => {
     modalRef.current.showModal();
@@ -17,7 +19,7 @@ export function Home() {
       <section id="hero-section" className="hidden md:block mb-20 h-auto">
         <div className="grid grid-cols-3 w-full gap-10 box-border px-10">
           {/* video 1 */}
-          <div className="flex-1 flex flex-col max-h-[800px] justify-between h-full ">
+          <div className="flex-1 flex flex-col max-h-[600px] justify-between h-full ">
             <div className="flex-1 mb-10">
               <video
                 src="/img/movistar-video.mp4?"
@@ -50,7 +52,7 @@ export function Home() {
           </div>
 
           {/* video 2 */}
-          <div className="flex-1 flex flex-col gap-10 h-full max-h-[800px] justify-between">
+          <div className="flex-1 flex flex-col gap-10 h-full max-h-[600px] justify-between">
             <img
               src="/img/amunas.png"
               alt=""
@@ -60,7 +62,7 @@ export function Home() {
               onClick={() => openModal()}
               className="w-[160px] lg:w-[200px] py-2 md:py-3 rounded-full border border-gray-50 text-gray-50 hover:border-mygreen hover:bg-zinc-950 transition duration-300 flex items-center justify-center gap-2 "
             >
-              Get in touch
+              {t("main.button1")}
               <img
                 src="/img/icon/arrow-up-right.png"
                 className="h-auto w-5"
@@ -70,7 +72,7 @@ export function Home() {
             <Contact modalRef={modalRef} />
           </div>
           {/* video 3 */}
-          <div className="flex-1 lg:h-full max-h-[800px]">
+          <div className="flex-1 lg:h-full max-h-[600px]">
             <video
               src="/img/cusquena-video-9:16.mp4"
               type="video/mp4"
@@ -114,11 +116,11 @@ export function Home() {
       {/* ---- Work Section ----  */}
       <section id="work-section" className="">
         <div className="py-10 md:py-20 px-5 md:px-10">
-          <Title title="Work" btn="View All" />
+          <Title title="work" btn={t("main.button2")} />
 
           {/* Amunas */}
           <WorkCard
-            title="Amunas Recovery"
+            title={t("projects.project1.title")}
             subtitle="Cusqueña - Publicis"
             link="/amunas-recovery"
             image="amunas-home.png"
@@ -128,7 +130,7 @@ export function Home() {
 
           {/* Corazon en la Pansa */}
           <WorkCard
-            title="Corazón en la Pansa"
+            title={t("projects.project4.title")}
             subtitle="Cusqueña - Publicis"
             link="/corazon-en-la-pansa"
             image="corazon-home.png"
@@ -138,7 +140,7 @@ export function Home() {
 
           {/* Conectados */}
           <WorkCard
-            title="Conectados"
+            title={t("projects.project2.title")}
             subtitle="Movistar - VML"
             link="/conectados"
             image="conectados-home.png"
@@ -148,7 +150,7 @@ export function Home() {
 
           {/* Nos Pasa */}
           <WorkCard
-            title="Nos Pasa"
+            title={t("projects.project3.title")}
             subtitle="Nayflex - Juju Angency"
             link="/nos-pasa"
             image="nayflex-home.png"
@@ -158,15 +160,75 @@ export function Home() {
           <hr className="bg-zinc-600 w-full my-10 h-[1px] border-none"></hr>
 
           {/* Sabores */}
-          {/* <WorkCard
-            title="Sabores que Conquistan el Mundo"
+          <WorkCard
+            title={t("projects.project5.title")}
             subtitle="Cusqueña - Publicis"
             link="/sabores-que-conquistan-el-mundo"
             image="sabores-home.png"
             video="https://www.youtube.com/embed/J_nmEMGxbZQ?autoplay=1&loop=1&mute=1&controls=0&modestbranding=1"
           />
+          <hr className="bg-zinc-600 w-full my-10 h-[1px] border-none"></hr>
 
-          <hr className="bg-zinc-600 w-full my-10 h-[1px] border-none"></hr> */}
+          {/* Gloria */}
+          <WorkCard
+            title={t("projects.project6.title")}
+            subtitle="Gloria - Juju"
+            link="/navidad"
+            image="navidad-home2.png"
+            video="https://player.vimeo.com/video/1068499267?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
+          />
+          <hr className="bg-zinc-600 w-full my-10 h-[1px] border-none"></hr>
+
+          {/* Intocables */}
+          <WorkCard
+            title={t("projects.project7.title")}
+            subtitle="Iniciativa idea - Ojo 2021"
+            link="/las-intocables"
+            image="intocables-home.png"
+            video="https://player.vimeo.com/video/704338668?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
+          />
+
+          <hr className="bg-zinc-600 w-full my-10 h-[1px] border-none"></hr>
+
+          {/* BudVar */}
+          <WorkCard
+            title={t("projects.project8.title")}
+            subtitle="Budweiser - Publicis"
+            link="/bud-var"
+            image="budvar-home.png"
+            video="https://player.vimeo.com/video/1068500225?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
+          />
+
+          <hr className="bg-zinc-600 w-full my-10 h-[1px] border-none"></hr>
+
+          {/* Bud Tunnel */}
+          <WorkCard
+            title={t("projects.project9.title")}
+            subtitle="Budweiser - Publicis"
+            link="/bud-tunnels"
+            image="bud-tunnels-home.png"
+            video="https://player.vimeo.com/video/1068500493?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
+          />
+          <hr className="bg-zinc-600 w-full my-10 h-[1px] border-none"></hr>
+
+          {/* Open Football */}
+          <WorkCard
+            title={t("projects.project10.title")}
+            subtitle="Budweiser - Publicis"
+            link="/open-football"
+            image="open-home.jpg"
+          />
+          <hr className="bg-zinc-600 w-full my-10 h-[1px] border-none"></hr>
+
+          {/* Mimaskot */}
+          <WorkCard
+            title={t("projects.project11.title")}
+            subtitle="Mimaskot - Circus"
+            link="/mimaskot"
+            image="mimaskot-home.png"
+            video="https://player.vimeo.com/video/1068501493?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
+          />
+          <hr className="bg-zinc-600 w-full my-10 h-[1px] border-none"></hr>
         </div>
       </section>
 
@@ -185,7 +247,7 @@ export function Home() {
                   to="/about"
                   className="lg:hidden w-[160px] py-2 rounded-full border border-gray-50 text-gray-50 hover:border-mygreen hover:bg-zinc-950 transition duration-300 flex items-center justify-center gap-2"
                 >
-                  About
+                  {t("main.button4")}
                   <img
                     src="/img/icon/arrow-up-right.png"
                     className="h-auto w-5"
@@ -196,20 +258,17 @@ export function Home() {
               {/* who i am */}
               <div className="pl-5 border-l-8 border-mygreen mb-20 ">
                 <p className="font-grotesk tracking-tight font-bold text-2xl mb-5">
-                  Who I Am
+                  {t("about.title")}
                 </p>
                 <p className="text-justify whitespace-pre-line">
-                  A Peruvian woman who loves ideas and their incredible ability
-                  to make people think about something they had never considered
-                  before or remember “that” which brings them so much joy,
-                  pride, passion, anger, or love.
+                  {t("about.description")}
                 </p>
               </div>
 
               <div className="w-full md:w-[500px] lg:w-full flex items-center justify-center gap-2 m-auto mb-8">
                 <hr className="w-full border-none h-[1px] bg-zinc-500"></hr>
                 <p className="whitespace-nowrap font-semibold text-zinc-500">
-                  Contact me here
+                  {t("about.contact")}
                 </p>
                 <hr className="w-full border-none h-[1px] bg-zinc-500 "></hr>
               </div>
@@ -223,7 +282,7 @@ export function Home() {
                       target="blank"
                       className="relative text-white after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-mygreen after:transition-all after:duration-300 group-hover:after:w-full"
                     >
-                      email me
+                      {t("about.mail")}
                     </a>
                   </div>
                 </div>
@@ -277,7 +336,7 @@ export function Home() {
                 to="/about"
                 className="mb-14 hidden self-end w-[200px] py-3 rounded-full border border-gray-50 text-gray-50 hover:border-mygreen hover:bg-zinc-950 transition duration-300 lg:flex items-center justify-center gap-2"
               >
-                About me
+                {t("about.button")}
                 <img
                   src="/img/icon/arrow-up-right.png"
                   className="h-auto w-5"
@@ -297,7 +356,7 @@ export function Home() {
 
               <div className="self-end flex flex-col w-full pl-2">
                 <div className="w-full border-t border-zinc-800 py-5 flex items-center justify-between">
-                  <p className="text-lg">PRESENT</p>
+                  <p className="text-lg">{t("about.experience.present")}</p>
                   <p>VML Peru</p>
                 </div>
                 <div className="w-full border-t border-zinc-800 py-5 flex items-center justify-between">

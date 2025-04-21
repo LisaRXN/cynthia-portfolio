@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
 import { Carousel } from "../../components/shared/Carousel";
+import { useTranslation } from "react-i18next";
 
 export function OpenFootball() {
+    const { t } = useTranslation();
+  
   return (
     <div className="px-10 lg:px-20 py-5 md:max-w-screen-2xl m-auto mb-20">
       <div className="flex flex-col items-start justify-center gap-5 mb-16 md:max-w-screen-2xl m-auto">
@@ -22,25 +25,20 @@ export function OpenFootball() {
               className="h-auto w-5"
               alt=""
             />
-            All works
+            {t('main.button4')}
           </Link>
         </div>
         <p className="text-zinc-400 font-open font-light text-lg text-center md:text-start w-full ">
-        For Budweiser - By Publicis - 2022
+        {t('projects.project10.subtitle')}
         </p>
       </div>
       <div className="m-auto md:px-5 lg:px-10 py-10 mb-14">
         <div className="relative md:w-1/2 pl-5 border-l-8 border-mygreen ">
           <p className="font-grotesk tracking-tight font-bold text-2xl mb-5">
-            Overview
+          {t('work.overview')}
           </p>
           <p className="text-justify whitespace-pre-line">
-            Budweiser es dueño de una verdad absoluta: Cada vez que una persona
-            abre una de sus latas, abre un espacio para disfrutar del fútbol,
-            sin importar en qué lugar se encuentre. <br />
-            <br /> Se acercaba la Copa Mundial de Fútbol Qatar 2022 y los
-            fanáticos que estaban lejos y cerca de sus equipos, tenían que saber
-            esto y animarse así a abrir cada vez más latas de Bud y fútbol.
+          {t('projects.project10.overview')}
           </p>
         </div>
       </div>

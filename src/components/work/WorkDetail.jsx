@@ -4,15 +4,15 @@ import {
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
 export function WorkDetail({ title, subtitle, video, overview, awards }) {
   const words = title.split(" ");
   const lastWord = words.pop();
   const firstPart = words.join(" ");
-
-  // const url = encodeURIComponent(window.location.href); 
   const url = window.location.href; 
+  const { t } = useTranslation();
 
   return (
     <>
@@ -35,7 +35,7 @@ export function WorkDetail({ title, subtitle, video, overview, awards }) {
               className="h-auto w-5"
               alt=""
             />
-            All works
+            {t('main.button4')}
           </Link>
         </div>
         <p className="text-zinc-400 font-open font-light text-lg text-center md:text-start w-full ">
@@ -297,7 +297,7 @@ export function WorkDetail({ title, subtitle, video, overview, awards }) {
       <div className="m-auto md:px-5 lg:px-10 md:max-w-screen-2xl">
         <div className="relative md:w-1/2 my-24 lg:my-32 pl-5 border-l-8 border-mygreen ">
           <p className="font-grotesk tracking-tight font-bold text-2xl mb-5">
-            Overview
+            {t('work.overview')}
           </p>
           <p className="text-justify whitespace-pre-line">{overview}</p>
         </div>

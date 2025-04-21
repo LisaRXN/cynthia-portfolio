@@ -1,7 +1,10 @@
 import { WorkCard } from "../components/work/WorkCard";
 import { Title } from "../components/shared/Title";
+import { useTranslation } from "react-i18next";
 
 export function Work() {
+    const { t } = useTranslation();
+  
   return (
     <section id="work-section" className="mb-16 md:mb-24 md:max-w-screen-2xl m-auto">
       <div className="py-10 md:py-20 px-5 md:px-10">
@@ -9,8 +12,8 @@ export function Work() {
 
         {/* Amunas */}
         <WorkCard
-          title="Amunas Recovery"
-          subtitle="Cusqueña - Publicis"
+          title={t('projects.project1.title')}
+          subtitle={t('projects.project1.subtitle')}
           link="/amunas-recovery"
           image="amunas-home.png"
           video="https://player.vimeo.com/video/937783428?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
@@ -19,8 +22,8 @@ export function Work() {
         
         {/* Conectados */}
         <WorkCard
-          title="Conectados"
-          subtitle="Movistar - VML"
+          title={t('projects.project2.title')}
+          subtitle={t('projects.project2.subtitle')}
           link="/conectados"
           image="conectados-home.png"
           video="https://player.vimeo.com/video/1068638578?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
@@ -29,8 +32,8 @@ export function Work() {
 
         {/* Nos Pasa */}
         <WorkCard
-          title="Nos Pasa"
-          subtitle="Nayflex - Juju Angency"
+          title={t('projects.project3.title')}
+          subtitle={t('projects.project3.subtitle')}
           link="/nos-pasa"
           image="nayflex-home.png"
           video="https://player.vimeo.com/video/1068498974?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
@@ -40,8 +43,8 @@ export function Work() {
 
         {/* Corazon en la Pansa */}
         <WorkCard
-          title="Corazón en la Pansa"
-          subtitle="Cusqueña - Publicis"
+          title={t('projects.project4.title')}
+          subtitle={t('projects.project4.subtitle')}
           link="/corazon-en-la-pansa"
           image="corazon-home.png"
           video="https://player.vimeo.com/video/1068592834?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
@@ -51,8 +54,8 @@ export function Work() {
 
         {/* Sabores */}
         <WorkCard
-          title="Sabores que Conquistan el Mundo"
-          subtitle="Cusqueña - Publicis"
+          title={t('projects.project5.title')}
+          subtitle={t('projects.project5.subtitle')}
           link="/sabores-que-conquistan-el-mundo"
           image="sabores-home.png"
           video="https://player.vimeo.com/video/1068499522?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
@@ -62,8 +65,8 @@ export function Work() {
 
         {/* Gloria */}
         <WorkCard
-          title="La Navidad La Preparamos Juntos"
-          subtitle="Gloria - Juju"
+          title={t('projects.project6.title')}
+          subtitle={t('projects.project6.subtitle')}
           link="/navidad"
           image="navidad-home2.png"
           video="https://player.vimeo.com/video/1068499267?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
@@ -72,8 +75,8 @@ export function Work() {
 
         {/* Intocables */}
         <WorkCard
-          title="Las Intocables"
-          subtitle="Iniciativa idea - Ojo 2021"
+          title={t('projects.project7.title')}
+          subtitle={t('projects.project7.subtitle')}
           link="/las-intocables"
           image="intocables-home.png"
           video="https://player.vimeo.com/video/704338668?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
@@ -83,8 +86,8 @@ export function Work() {
 
         {/* BudVar */}
         <WorkCard
-          title="BudVar"
-          subtitle="Budweiser - Publicis"
+          title={t('projects.project8.title')}
+          subtitle={t('projects.project8.subtitle')}
           link="/bud-var"
           image="budvar-home.png"
           video="https://player.vimeo.com/video/1068500225?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
@@ -94,8 +97,8 @@ export function Work() {
 
         {/* Bud Tunnel */}
         <WorkCard
-          title="Bud Tunnels"
-          subtitle="Budweiser - Publicis"
+          title={t('projects.project9.title')}
+          subtitle={t('projects.project9.subtitle')}
           link="/bud-tunnels"
           image="bud-tunnels-home.png"
           video="https://player.vimeo.com/video/1068500493?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"
@@ -104,8 +107,8 @@ export function Work() {
         
         {/* Open Football */}
         <WorkCard
-          title="Open Football"
-          subtitle="Budweiser - Publicis"
+          title={t('projects.project10.title')}
+          subtitle={t('projects.project10.subtitle')}
           link="/open-football"
           image="open-home.jpg"
         />
@@ -113,8 +116,8 @@ export function Work() {
 
         {/* Mimaskot */}
         <WorkCard
-          title="Blackie El Gato Negro"
-          subtitle="Mimaskot - Circus"
+          title={t('projects.project11.title')}
+          subtitle={t('projects.project11.subtitle')}
           link="/mimaskot"
           image="mimaskot-home.png"
           video="https://player.vimeo.com/video/1068501493?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&controls=0"

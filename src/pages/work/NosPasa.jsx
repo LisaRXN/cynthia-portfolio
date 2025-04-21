@@ -1,14 +1,16 @@
+import { useTranslation } from "react-i18next";
 import { WorkDetail } from "../../components/work/WorkDetail";
 
 export function NosPasa() {
+    const { t } = useTranslation();
+  
   return (
     <div className="min-h-screen h-auto px-10 lg:px-20 py-5 mb-10 md:max-w-screen-2xl m-auto">
       <WorkDetail
         title="Nos Pasa"
         subtitle="Nayflex - Juju Angency"
         video="https://player.vimeo.com/video/1068498974"
-        // overview={`La regla es un fenómeno tan complejo que no puede ser resumido en un simple dolor, la regla es mucho más. La regla es hambre, frustración, furia, felicidad, excitación, cansancio, endometriosis, diarrea, frío, incomodidad y más, mucho más. Sumado a esto, las mujeres a las que les viene la regla también son más, son mamás, lesbianas, abuelas.\n\nCon este pensamiento claro y junto a un equipo de mujeres increíbles creamos #NosPasa, una campaña que habla de todo eso que nos pasa a las mujeres con la regla y que nadie dice. `}
-        overview={`Periods are such a complex phenomenon that they can't be summed up as just pain — they're so much more. Periods mean hunger, frustration, rage, happiness, excitement, fatigue, endometriosis, diarrhea, chills, discomfort, and more — so much more.\n\nAnd on top of that, the people who get their periods are more than one thing too — they're moms, lesbians, grandmothers.\n\nWith this in mind, and alongside an amazing team of women, we created #NosPasa, a campaign that talks about everything we go through during our periods — the things no one ever says out loud. `}
+        overview={t('projects.project3.overview')}
       />
 
       <div className="m-auto md:px-10 flex items-center justify-center">

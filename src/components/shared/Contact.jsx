@@ -1,4 +1,8 @@
+import { useTranslation } from "react-i18next";
+
 export function Contact({ modalRef }) {
+    const { t } = useTranslation();
+  
   return (
     <dialog id="my_modal_3" ref={modalRef} className="modal">
       <div className="modal-box">
@@ -8,7 +12,7 @@ export function Contact({ modalRef }) {
           </button>
         </form>
         <div className="w-full lg:w-full flex flex-col items-center justify-start gap-5 m-auto">
-          <h3 className="font-bold text-lg">Contact me here !</h3>
+          <h3 className="font-bold text-lg">{t('contact.title')}</h3>
           <div className="flex items-center justify-start gap-3">
             <img src="/img/icon/mail.png" className="w-5" alt="" />
             <div className="group relative">
@@ -17,7 +21,7 @@ export function Contact({ modalRef }) {
                 target="blank"
                 className="relative text-white after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-mygreen after:transition-all after:duration-300 group-hover:after:w-full"
               >
-                email me
+                {t('contact.mail')}
               </a>
             </div>
           </div>

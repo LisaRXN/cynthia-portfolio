@@ -1,9 +1,11 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
 export function WorkCard({ title, subtitle, link, image, video }) {
   const [startVideo, setStartVideo] = useState(false);
   const [isVideoVisible, setIsVideovisible] = useState(false);
+  const { t } = useTranslation();
 
   const handleVideo = () => {
     if (video && !isVideoVisible && !startVideo) {
@@ -21,7 +23,9 @@ export function WorkCard({ title, subtitle, link, image, video }) {
   };
 
   return (
-    <div className="flex flex-col md:flex-row gap-5 h-full items-start md:items-center justify-between">
+    <Link 
+    to={link}
+    className="flex flex-col md:flex-row gap-5 h-full items-start md:items-center justify-between">
       <div className="flex-1">
         <p className="font-grotesk tracking-tight uppercase font-light text-4xl mb-4 max-w-[500px]">
           {title}
@@ -34,13 +38,10 @@ export function WorkCard({ title, subtitle, link, image, video }) {
         <div
           onMouseEnter={handleVideo}
           onMouseLeave={handleVideo}
-          // className="w-[325px] h-[183px] md:w-[350px] md:h-[200px] relative"
           className="w-[325px] h-[183px] md:w-[350px] md:h-[197px] relative"
         >
           <iframe
-            // key={startVideo ? video : null} 
             key={title}
-            // className={`absolute top-0 left-0 rounded-md aspect-video pointer-events-none w-[325px] h-[183px] md:w-[350px] md:h-[200px];
             className={`absolute top-0 left-0 rounded-md aspect-video pointer-events-none :w-[350px] h-[200px];
  ${
               isVideoVisible ? "opacity-100" : "opacity-0"
@@ -70,7 +71,7 @@ export function WorkCard({ title, subtitle, link, image, video }) {
           to={link}
           className="font-open text-lg font-light text-zinc-50/Users/lisaeriksen/Desktop/DiffuZe./Logos/arrow-up-right.png transition duration-300 flex items-center justify-center gap-2 transform hover:-translate-y-1"
         >
-          View Project
+          {t('main.button3')}
           <img
             src="/img/icon/arrow-up-right.png"
             className="h-auto w-5"
@@ -78,6 +79,6 @@ export function WorkCard({ title, subtitle, link, image, video }) {
           />
         </Link>
       </div>
-    </div>
+    </Link>
   );
 }

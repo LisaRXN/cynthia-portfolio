@@ -1,16 +1,16 @@
+import { useTranslation } from "react-i18next";
 import { WorkDetail } from "../../components/work/WorkDetail";
 
 export function Intocables() {
+      const { t } = useTranslation();
+  
   return (
     <div className="px-10 lg:px-20 py-5 md:max-w-screen-2xl m-auto">
       <WorkDetail
         title="Las Intocables"
         subtitle="Shortlist - El Ojo de Iberoamérica 2021"
         video="https://player.vimeo.com/video/704338668?"
-        //         overview="Para desmitificar los mitos sobre el aborto y lograr que por fin sea legal en diversos países del mundo donde no lo es, descubrimos en el mismo código penal que prohíben a las mujeres abortar, un artículo que podría cambiarlo todo:
-        // La prescripción de un delito.
-        // Así logramos que miles de mujeres confesaran que abortaron sin ir a prisión."
-        overview={`To debunk the myths about abortion and finally make it legal in various countries where it is not, we discovered, within the same criminal code that prohibits women from having an abortion, an article that could change everything:\n\nThe prescription of a crime.\n\nThis is how we managed to get`}
+        overview={t('projects.project7.overview')}
       />
 
       <div className="h-[180px] md:h-[600px] md:px-10 mb-20">

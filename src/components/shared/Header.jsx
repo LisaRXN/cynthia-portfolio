@@ -1,18 +1,25 @@
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const { i18n } = useTranslation();
+
+  const toggleLanguage = () => {
+    const newLang = i18n.language === "en" ? "es" : "en";
+    i18n.changeLanguage(newLang);
+  };
 
   useEffect(() => {
     document.body.style.overflow = isOpen ? "hidden" : "auto";
     return () => {
-      document.body.style.overflow = "auto"; 
+      document.body.style.overflow = "auto";
     };
   }, [isOpen]);
 
   return (
-    <header className="relative text-slate-50 flex justify-between items-center h-[80px] w-full px-10 md:max-w-screen-2xl m-auto">
+    <header className="relative sticky top-0 bg-zinc-900 z-50 text-slate-50 flex justify-between items-center h-[80px] w-full px-10 md:max-w-screen-2xl m-auto">
       <div className="logo">
         <a
           href="/"
@@ -41,12 +48,21 @@ export function Header() {
               about
             </Link>
           </div>
+          <div>
+
+            <button
+              onClick={toggleLanguage}
+              className="px-4 py-2 border border-zinc-700  hover:bg-zinc-950 rounded-full text-sm transition"
+            >
+              {i18n.language === "en" ? "🇪🇸 Español" : "🇬🇧 English"}
+            </button>
+          </div>
         </ul>
       </nav>
 
       {/* Bouton burger */}
       <button
-        onClick={()=> setIsOpen(!isOpen)}
+        onClick={() => setIsOpen(!isOpen)}
         className="md:hidden relative w-[35px] h-[24px] focus:outline-none"
       >
         <span
@@ -85,6 +101,20 @@ export function Header() {
               >
                 about
               </Link>
+              <div>
+                {/* <button onClick={() => handleLanguageChange("en")}>
+                  🇬🇧 English
+                </button>
+                <button onClick={() => handleLanguageChange("es")}>
+                  🇪🇸 Español
+                </button> */}
+                <button
+                  onClick={toggleLanguage}
+                  className="px-4 py-2 bg-slate-200 hover:bg-slate-300 rounded-full text-sm font-medium transition"
+                >
+                  {i18n.language === "en" ? "🇪🇸 Español" : "🇬🇧 English"}
+                </button>
+              </div>
             </div>
           </ul>
         </div>

@@ -1,0 +1,89 @@
+{
+    "main":{
+     "mainTitle": "Creative Copywriter",
+     "work":"work",
+     "about":"about",    
+     "share":"comparte",
+     "button1":"hablemos",
+     "button2":"ver más",
+     "button3":"ver proyecto",
+     "button4":"ver proyectos"
+
+    },
+    "work":{
+        "overview":"Resumen"
+    },
+    "about":{
+     "contact":"Contáctame por aquí",
+     "button":"quién soy",
+     "mail":"email",
+     "experience":{
+        "title":"Mi Experiencia",
+        "present":"ACTUALIDAD"
+     },
+     "title":"Quién soy",
+     "description":"Una peruana que ama las ideas y la increíble capacidad que tienen de hacer que muchas personas piensen en algo en lo que nunca habían pensado o recuerden “eso” que les causa tanta gracia, orgullo, pasión, enojo, amor."
+    },
+    "contact":{
+        "title":"Contáctame por aquí !",
+        "mail":"e-mail"
+    },
+     "projects": {
+       "project1": {
+         "title": "Amunas Recovery",
+         "subtitle": "Para Cusqueña - Publicis",
+         "overview": "Cusqueña recuperó una antigua tecnología llamada Amunas para ayudar a comunidades sin acceso al agua."
+       },
+       "project2": {
+         "title": "Conectados",
+         "subtitle": "Para Movistar - VLM",
+         "overview": "Movistar necesitaba comunicar el lanzamiento de su nuevo modem WiFi 6 que permitía a las familias tener más cobertura y más dispositivos conectados al tiempo.\n\nPara contarlo, decidimos llevar esta conexión al máximo nivel, mostrando que cuando el WiFi es bueno, hasta los objetos de una casa pueden cobrar vida para conectarse."
+       },
+       "project3": {
+         "title": "Nos Pasa",
+         "subtitle": "Para Nayflex - Juju Angency",
+         "overview": "La regla es un fenómeno tan complejo que no puede ser resumido en un simple dolor, la regla es mucho más. La regla es hambre, frustración, furia, felicidad, excitación, cansancio, endometriosis, diarrea, frío, incomodidad y más, mucho más. Sumado a esto, las mujeres a las que les viene la regla también son más, son mamás, lesbianas, abuelas.\n\nCon este pensamiento claro y junto a un equipo de mujeres increíbles creamos #NosPasa, una campaña que habla de todo eso que nos pasa a las mujeres con la regla y que nadie dice."
+       },
+       "project4": {
+         "title": "Corazón en la Panza",
+         "subtitle": "Para Cusqueña - By Publicis",
+         "overview": "Los peruanos amamos tanto nuestra comida que el corazón se nos ha bajado a la panza. Justo ahí es donde lo tenemos y donde más sentimos el amor de todos a través de increíbles sabores.\n\nEsta es la historia que quisimos contar junto a Cusqueña, la cerveza de la gastronomía nacional, para recordarle a todos que cada plato va mejor con los sabores de nuestra cerveza."
+       },
+       "project5": {
+         "title": "Sabores que Conquistan el Mundo",
+         "subtitle": "Para Cusqueña - By Publicis",
+         "overview": "Desde tiempos ancestrales los peruanos hemos conquistado la papa, el fuego y una infinidad de sabores que nos han hecho resaltar como una de las grandes gastronomías del mundo.\n\nEn cada lugar los sabores del Perú han dejado de conquistar solo nuestras mesas y han pasado a conquistar el mundo entero junto a una cerveza Cusqueña."
+       },
+       "project6": {
+         "title": "La Navidad La Preparamos Juntos",
+         "subtitle": "Para Gloria - Juju Angency",
+         "overview": "Desde hace 84 años, cada vez que llega la navidad, en todas las mesas del Perú hay Gloria, la marca de lácteos más grande del país. Lista para preparar los platos más increíbles y emblemáticos.\n\nEsta vez, además de eso, Gloria quería no solo participar en la preparación de los sabores de la navidad peruana, sino también en la preparación de un gran símbolo de estas fiestas: el nacimiento. Así que decidimos contar esta gran preparación de manera muy cercana, junto a una linda reinterpretación de un clásico del clásico Chaikovski."
+       },
+       "project7": {
+         "title": "Las Intocables",
+         "subtitle": "Iniciativa idea - Ojo 2021",
+         "overview": "Periods are such a complex phenomenon that they can't be summed up as just pain — they're so much more. Periods mean hunger, frustration, rage, happiness, excitement, fatigue, endometriosis, diarrhea, chills, discomfort, and more — so much more.\n\nAnd on top of that, the people who get their periods are more than one thing too — they're moms, lesbians, grandmothers.\n\nWith this in mind, and alongside an amazing team of women, we created #NosPasa, a campaign that talks about everything we go through during our periods — the things no one ever says out loud."
+       },
+       "project8": {
+         "title": "BudVar",
+         "subtitle": "Para Budweiser - Publicis",
+         "overview": "Si algo genera conversación en los partidos de la Copa Mundial es el VAR, pero además, muchas de estas conversaciones se dan en el BAR, tomando una Budweiser. Ese VAR y nuestro BAR era una gran coincidencia fonética y gramatical que no podíamos pasar por alto."
+       },
+       "project9": {
+         "title": "Tunnels Takeover",
+         "subtitle": "Para Budweiser - Publicis",
+         "overview": "Budweiser quería robar la atención de los fanáticos del fútbol durante el mundial Qatar 2022 creando una gran idea bajo su concepto “El Túnel de la Grandeza”.\n\nAl escuchar la palabra túnel, supimos dos cosas: todos los países del mundo tienen uno, y en cada uno de ellos puede pasar algo increíble. Algo tan increíble como una inauguración o una final."
+       },
+       "project10": {
+         "title": "Open Football",
+         "subtitle": "Para Budweiser - Publicis",
+         "overview": "Budweiser es dueño de una verdad absoluta: Cada vez que una persona abre una de sus latas, abre un espacio para disfrutar del fútbol, sin importar en qué lugar se encuentre.\n\nSe acercaba la Copa Mundial de Fútbol Qatar 2022 y los fanáticos que estaban lejos y cerca de sus equipos, tenían que saber esto y animarse así a abrir cada vez más latas de Bud y fútbol."
+       },
+       "project11": {
+         "title": "Blackie El Gato Negro",
+         "subtitle": "Para Mimaskot - Circus",
+         "overview": "Mimaskot es una marca reconocida por su comida para perros, sin embargo, esta vez había incursionado en la comida para gatos y para anunciarlo, nos pidió una gran historia que tocara fibra.\n\nDecidimos crearla apoyados en un gran insight:  No hay nada que haga sentir más unida y afortunada a una familia que la llegada de un nuevo integrante, sin importar cuál sea su color, origen o raza."
+       }
+     }
+   }
+   

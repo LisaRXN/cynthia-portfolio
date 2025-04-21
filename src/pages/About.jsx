@@ -2,11 +2,13 @@ import { Link } from "react-router-dom";
 import { Title } from "../components/shared/Title";
 import { Contact } from "../components/shared/Contact";
 import { useRef } from "react";
+import { useTranslation } from "react-i18next";
 
 export function About() {
 
     const modalRef = useRef();
-  
+    const { t } = useTranslation();
+
     const openModal = () => {
       modalRef.current.showModal()
   }
@@ -14,8 +16,6 @@ export function About() {
   return (
     <section id="work-section" className="mb-24 md:max-w-screen-2xl m-auto">
       <div className="px-5 md:px-10">
-        {/* <Title title="About" btn="Get in touch" /> */}
-
         <div className="px-3 py-10 mb-10 lg:mb-14 md:w-3/4 z-50 m-auto text-end text-[80px] md:text-[100px] text-gray-800 font-extrabold font-grotesk leading-none">
           <p className="opacity-35 inline">Shaping the Power of </p>{" "}
           <span
@@ -29,19 +29,14 @@ export function About() {
             Ideas.
           </span>
         </div>
-        {/* <div className="px-3 mb-14 w-3/4 z-50 m-auto text-end text-[100px] text-zinc-800 opacity-25 font-extrabold font-grotesk leading-none">Shaping the Power of Ideas</div> */}
-
         <div className="z-0 m-auto md:px-5 lg:pr-10 flex flex-col lg:flex-row items-center justify-between lg:w-4/5 xl:w-3/4 mb-28 lg:mb-14">
           <div className="w-4/5 lg:w-1/2 mb-14 lg:mb-0">
             <div className="pl-5 border-l-8 border-mygreen ">
               <p className="font-grotesk tracking-tight font-bold text-2xl mb-5">
-                Who I Am
+              {t('about.title')}
               </p>
               <p className="text-justify whitespace-pre-line">
-                A Peruvian woman who loves ideas and their incredible ability to
-                make people think about something they had never considered
-                before or remember “that” which brings them so much joy, pride,
-                passion, anger, or love.
+              {t('about.description')}
               </p>
             </div>
 
@@ -50,7 +45,7 @@ export function About() {
                 onClick={()=>openModal()}
                 className="order-2 md:order-1 w-[200px] py-3 rounded-full border border-gray-50 text-gray-50 hover:border-mygreen hover:bg-zinc-950 transition duration-300 flex items-center justify-center gap-2 "
               >
-                Get in touch
+                {t('main.button1')}
                 <img
                   src="/img/icon/arrow-up-right.png"
                   className="h-auto w-5"
@@ -65,12 +60,6 @@ export function About() {
                 </p>
               </div>
             </div>
-            {/* <div className="flex flex-col gap-2 items-end mt-14 transform translate-x-5  md:translate-x-12">
-              <p className="font-open font-light text-end">Cynthia Alarcón</p>
-              <p className="inline font-open font-light text-zinc-400">
-                Senior Creative Copywriter
-              </p>
-            </div> */}
           </div>
 
           <div className="relative h-[400px] w-[250px] ">
@@ -85,12 +74,12 @@ export function About() {
 
         <div className="flex flex-col items-center justify-center w-full py-14">
           <p className="font-grotesk tracking-tight font-bold text-2xl mb-14">
-            My Experience
+          {t('about.experience.title')}
           </p>
 
           <div className="flex flex-col w-3/4">
             <div className="w-full border-t border-zinc-800 py-5 flex items-center justify-between">
-              <p className="text-xl">PRESENT</p>
+              <p className="text-xl">{t('about.experience.present')}</p>
               <p>VML Peru</p>
             </div>
             <div className="w-full border-t border-zinc-800 py-5 flex items-center justify-between">

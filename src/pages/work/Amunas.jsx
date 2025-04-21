@@ -2,9 +2,11 @@ import { Helmet } from "react-helmet";
 import { WorkDetail } from "../../components/work/WorkDetail";
 import useCarouselScroll from "../../utils/useCarouselScroll";
 import { Carousel } from "../../components/shared/Carousel";
+import { useTranslation } from 'react-i18next';
 
 export function Amunas() {
   const { activeSlide, carouselRef, itemRef, goToSlide } = useCarouselScroll();
+  const { t } = useTranslation();
 
   return (
     <div className="px-10 lg:px-20 py-5 md:max-w-screen-2xl m-auto">
@@ -35,9 +37,9 @@ export function Amunas() {
 
       <WorkDetail
         title="Amunas Recovery"
-        subtitle="For Cusqueña - By Publicis - 2024"
+        subtitle={t('projects.project1.subtitle')}
         video="https://player.vimeo.com/video/937783428?h=80cded8db1"
-        overview="Cusqueña brought back an ancient technology called Amunas to save communities with no access to water."
+        overview={t('projects.project1.overview')}
         awards={true}
       />
 
